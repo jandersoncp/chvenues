@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('icons/icons.eot?52skam');
+  src:  url('icons/icons.eot?52skam#iefix') format('embedded-opentype'),
+    url('icons/icons.ttf?52skam') format('truetype'),
+    url('icons/icons.woff?52skam') format('woff'),
+    url('icons/icons.svg?52skam#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-grid:before {
+  content: "\e900";
+  color: #de53f3;
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-list:before {
+  content: "\e902";
+}
+.icon-member:before {
+  content: "\e903";
+}
+.icon-tickets:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-youtube:before {
+  content: "\e905";
+}

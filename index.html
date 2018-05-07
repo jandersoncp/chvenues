@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="CH Venues">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.chvenues.com">
+    <meta property="og:image" content="https://www.chvenues.com/assets/img/default_thumb.jpg">
+    <meta property="og:site_name" content="CH Venue">
+    <meta property="og:description" content="CH Venues is a multi-purpose entertainment arena in Downtown Charlotte, North Carolina, United States.">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@chvenues" />
+    <meta name="twitter:title" content="CH Venues" />
+    <meta name="twitter:description" content="CH Venues is a multi-purpose entertainment arena in Downtown Charlotte, North Carolina, United States." />
+    <meta name="twitter:image" content="https://www.chvenues.com/assets/img/default_thumb.jpg" />
+    <meta name="twitter:image:alt" content="CH Venues Logo" />
+    <meta name="description" content="CH Venues is a multi-purpose entertainment arena in Downtown Charlotte, North Carolina, United States.">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#de53f3">
+    
+    <link rel="stylesheet" href="assets/fontAwesome/fontawesome-all.min.css">
+     <link rel="stylesheet" href="assets/fonts/icons.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>CH Venues</title>
+
+    <script>
+        WebFontConfig = {
+            google: { families: ['Oswald:300,400,700', 'Merriweather:300,400,700', 'Lato:300,400,700', 'Material Icons: 300, 400, 700'] }
+        };
+
+        (function (d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+</head>
+<body onload="enableMenu()" onresize="enableMenu()">
+    <header>
+        <aside>
+            <ul>
+                <li><a href="#">Get Connected</a></li>
+                <li><a href="#"><i class="icon-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="icon-youtube"></i></a></li>
+            </ul>
+            <form role="search">
+                <div>
+                    <input type="search" id="mySearch" name="q" placeholder="Search events" aria-label="Search through site content">
+                    <a href="#"><i class="fal fa-search"></i></a>
+                </div>
+            </form>
+            <div class="login">
+                <a href="#">
+                    <span>Login</span>
+                    <i class="icon-member"></i>
+                </a>
+            </div>
+        </aside>
+        <nav id="navOverflow">
+            <div id="logo">
+                <img src="assets/logo.png" alt="CH Venues Logo" title="CH Venues Logo">
+            </div>
+            <div class="icons">
+                <i class="icon-grid"></i>
+                <i id="button" class="fal fa-bars" onclick="expandMenu()"></i>
+            </div>
+            <ul id="menu">
+                <li onclick="expandMenu()"><i class="fal fa-times"></i>Close</li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Plan Your Visit</a></li>
+                <li><a href="#">VIP Members</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="sectionHeader">
+            <h1>Upcoming Events</h1>
+        </div>
+        <div class="sectionThumbs">
+            <div class="thumb">
+                <div class="sectionCap">
+                    <img src="assets/nickiminaj.jpg" alt="Nicki Minag Headshot" title="Nicki Minag Headshot">
+                    <div class="cap">
+                        <h2>Nicki Minaj</h2>
+                        <h3>The Pink Print Tour</h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>Jul 25, 2015</span>
+                    <span class="callout">Friday</span>
+                </div>                
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a>
+            </div>
+            <div class="thumb">
+                <div class="sectionCap">
+                    <img src="assets/nickjonas.jpg" alt="Nick Jonas Headshot" title="Nick Jonas Headshot">
+                    <div class="cap">
+                        <h2>Nick Jonas</h2>
+                        <h3>'Live in Concert' Tour</h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>Jul 30, 2015</span>
+                    <span class="callout">Saturday</span>
+                </div>
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a>   
+            </div>
+            <div class="thumb">
+                <div class="sectionCap">
+                    <img src="assets/taylorswift.jpg" alt="Taylor Swift Headshot" title="Taylor Swift Headshot">
+                    <div class="cap">
+                        <h2>Taylor Swift</h2>
+                        <h3>The 1989 World Tour </h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>August 6, 2015</span>
+                    <span class="callout">Thursday</span>
+                </div>
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a>   
+            </div>
+            <div class="thumb">
+                <div class="sectionCap">
+                    <img src="assets/samsmith.jpg" alt="Sam Smith Headshot" title="Sam Smith Headshot">
+                    <div class="cap">
+                        <h2>Sam Smith</h2>
+                        <h3>In the Lonely Hour Tour</h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>August 15, 2015</span>
+                    <span class="callout">Saturday</span>
+                </div>
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a>     
+            </div>
+            <div class="thumb">
+                <div class="sectionCap">
+                     <img src="assets/iggy.jpg" alt="Iggy Azalea Headshot" title="Iggy Azalea Headshot">
+                    <div class="cap">
+                        <h2>Iggy Azalea</h2>
+                        <h3>'Great Escape' Tour</h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>August 22, 2015</span>
+                    <span class="callout">Friday</span>
+                </div>
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a> 
+            </div>
+            <div class="thumb">
+                <div class="sectionCap">
+                     <img src="assets/brandonflowers.jpg" alt="Brandon Flowers Headshot" title="Brandon Flowers Headshot">
+                    <div class="cap">
+                        <h2>Brandon Flowers</h2>
+                        <h3>with Temper Trap</h3>
+                    </div>
+                </div>
+                <div class="calloutCap">
+                    <span>August 30, 2015</span>
+                    <span class="callout">Saturday</span>
+                </div>
+                <a href="#"><i class="icon-tickets"></i>Buy tickets</a> 
+            </div>
+        </div>
+    </section>
+    
+    <section id="bgImage">
+        <div>
+            <h2>Newsletter Signup</h2>
+            <p>Stay updated on the best concerts and most hip events!</p>
+            <a href="#">Get Connected</a>
+        </div>    
+    </section>
+    
+    <section id="social">
+        <aside>
+            <h2>Get Social</h2>
+            <h3>Stay Connected Wherever You Are!</h3>
+            <div class="sectionFilter">
+                <ul>
+                    <li class="tab active" onclick="openTab(event, 'twitter')">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </li>
+                    <li class="tab" onclick="openTab(event, 'insta')">
+                        <i class="icon-instagram"></i>
+                        <span>Instagram</span>
+                    </li>
+                    <li class="tab" onclick="openTab(event, 'facebook')">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </li>
+                </ul>
+                <div class="filterWrap">
+                    <h2>Follow <span>@chvenue</span></h2>
+                    <div class="arrows">
+                        <i class="fal fa-angle-left" id="left" onclick="rotateCarousel('left')"></i>
+                        <i class="fal fa-angle-right" id="right" onclick="rotateCarousel('right')"></i>
+                    </div>
+                    <div id="twitter" class="imgCarousel" style="display: block">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                    </div>
+                    <div id="insta" class="imgCarousel">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                    </div>
+
+                    <div id="facebook" class="imgCarousel">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                        <img src="assets/twitter1.jpg" alt="CHVenue Tweet">
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <aside>
+            <h2>Get Directions</h2>
+            <h3>Map Out Your Trip!</h3>
+            <div class="sectionFilter">
+                <p>Address: <span>5727 Westpark Drive, Suite 108, Charlotte, NC 28217</span></p>
+                <div id="map"></div>
+                <span id="mapBlurb">
+                    CH Venue<br>
+                    5727 Westpark Drive<br>
+                    Suite 108<br>
+                    Charlotte, NC 28217<br>
+                </span>
+            </div>
+        </aside>
+    </section>
+    <script async defer src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkzTbFtsQweP_vSgWJlxqZCpyXq1nsvfc&callback=initMap"></script>
+</body>
+</html>
